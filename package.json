@@ -1,16 +1,29 @@
 {
-    "name": "unsolved",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "test": "jest"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-      "jest": "^24.8.0"
-    }
-  }
-  
+  "name": "oop-team-profile-generator",
+  "version": "1.0.0",
+  "description": "Allows the user to input each team members information and have it generate a HTML showing eache employee's information on a card",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Ali Momin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimomin7861/Team-Profile-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alimomin7861/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/alimomin7861/Team-Profile-Generator#readme"
+}
